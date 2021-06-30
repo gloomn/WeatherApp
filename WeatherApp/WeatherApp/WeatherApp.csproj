@@ -86,6 +86,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="buttons\windowExit.png" />
+    <Content Include="buttons\windowMaximize.png" />
+    <Content Include="buttons\windowMaximize1.png" />
+    <Content Include="buttons\windowMinimize.png" />
+    <Content Include="buttons\windowSmaller.png" />
     <Content Include="icons\mainIcon.ico" />
     <Content Include="images\mainNavbarLogo.png.png" />
   </ItemGroup>

@@ -9,3 +9,4 @@ D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\We
 D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csproj.CopyComplete
 D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.exe
 D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.pdb
+D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csproj.AssemblyReference.cache
