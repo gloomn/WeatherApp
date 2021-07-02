@@ -143,5 +143,10 @@ namespace WeatherApp
             closeMenu.Hide();
             menuBar.Show();
         }
+
+        private void guna2GradientButton4_Click(object sender, EventArgs e)
+        {
+            hanriverTemp1.BringToFront();
+        }
     }
 }
