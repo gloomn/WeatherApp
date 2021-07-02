@@ -26,12 +26,16 @@ namespace WeatherApp
         int movY;
         private const int cGrip = 16;
         private const int cCaption = 32;
+        int menu_width;
+        bool hided;
 
         public main()
         {
             InitializeComponent();
             this.SetStyle(ControlStyles.ResizeRedraw, true);
             this.MinimumSize = new Size(800, 450);
+            menu_width = sidePanel.Width;
+            hided = true;
         }
 
         public void navBar_MouseDown(object sender, MouseEventArgs e)
@@ -100,6 +104,44 @@ namespace WeatherApp
         private void main_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void menuBar_Click(object sender, EventArgs e)
+        {
+            slidePanelTimer.Start();
+            menuBar.Hide();
+            closeMenu.Show();
+        }
+
+        private void slidePanelTimer_Tick(object sender, EventArgs e)
+        {
+            if(hided)
+            {
+                sidePanel.Width = sidePanel.Width + 145;
+                if(sidePanel.Width >= menu_width)
+                {
+                    slidePanelTimer.Stop();
+                    hided = false;
+                    this.Refresh();
+                }
+            }
+            else
+            {
+                sidePanel.Width = sidePanel.Width - 145;
+                if(sidePanel.Width >= 0)
+                {
+                    slidePanelTimer.Stop();
+                    hided = true;
+                    this.Refresh();
+                }
+            }
+        }
+
+        private void closeMenu_Click(object sender, EventArgs e)
+        {
+            slidePanelTimer.Start();
+            closeMenu.Hide();
+            menuBar.Show();
         }
     }
 }

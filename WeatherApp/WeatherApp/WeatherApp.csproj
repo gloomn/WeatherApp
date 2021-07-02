@@ -89,6 +89,13 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="buttons\hamburger_menu.png" />
+    <Content Include="buttons\hanriverTemp.png" />
+    <Content Include="buttons\menuClose.png" />
+    <Content Include="buttons\moonMenu.png" />
+    <Content Include="buttons\setting.png" />
+    <Content Include="buttons\sunMenu.png" />
+    <Content Include="buttons\weatherIcon.png" />
     <Content Include="buttons\windowExit.png" />
     <Content Include="buttons\windowMaximize.png" />
     <Content Include="buttons\windowMaximize1.png" />
