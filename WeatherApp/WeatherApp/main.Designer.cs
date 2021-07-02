@@ -39,6 +39,7 @@ namespace WeatherApp
             this.maximizeButton = new Guna.UI2.WinForms.Guna2GradientButton();
             this.smallerButton = new Guna.UI2.WinForms.Guna2GradientButton();
             this.mainFormShadow = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.navBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -53,10 +54,10 @@ namespace WeatherApp
             this.navBar.Controls.Add(this.maximizeButton);
             this.navBar.Controls.Add(this.smallerButton);
             this.navBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.navBar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
-            this.navBar.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
-            this.navBar.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
-            this.navBar.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
+            this.navBar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(125)))), ((int)(((byte)(182)))));
+            this.navBar.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(200)))));
+            this.navBar.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(200)))));
+            this.navBar.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(125)))), ((int)(((byte)(182)))));
             this.navBar.Location = new System.Drawing.Point(0, 0);
             this.navBar.Name = "navBar";
             this.navBar.ShadowDecoration.BorderRadius = 10;
@@ -70,6 +71,7 @@ namespace WeatherApp
             // minimizeButton
             // 
             this.minimizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.minimizeButton.BackColor = System.Drawing.Color.Transparent;
             this.minimizeButton.CheckedState.Parent = this.minimizeButton;
             this.minimizeButton.CustomImages.Parent = this.minimizeButton;
             this.minimizeButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -97,6 +99,7 @@ namespace WeatherApp
             // exitButton
             // 
             this.exitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.exitButton.BackColor = System.Drawing.Color.Transparent;
             this.exitButton.CheckedState.Parent = this.exitButton;
             this.exitButton.CustomImages.Parent = this.exitButton;
             this.exitButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -123,6 +126,7 @@ namespace WeatherApp
             // navBarTitle
             // 
             this.navBarTitle.AutoSize = true;
+            this.navBarTitle.BackColor = System.Drawing.Color.Transparent;
             this.navBarTitle.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.navBarTitle.ForeColor = System.Drawing.Color.White;
             this.navBarTitle.Location = new System.Drawing.Point(24, 3);
@@ -133,6 +137,7 @@ namespace WeatherApp
             // 
             // guna2PictureBox1
             // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
@@ -146,6 +151,7 @@ namespace WeatherApp
             // maximizeButton
             // 
             this.maximizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.maximizeButton.BackColor = System.Drawing.Color.Transparent;
             this.maximizeButton.CheckedState.Parent = this.maximizeButton;
             this.maximizeButton.CustomImages.Parent = this.maximizeButton;
             this.maximizeButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -173,6 +179,7 @@ namespace WeatherApp
             // smallerButton
             // 
             this.smallerButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.smallerButton.BackColor = System.Drawing.Color.Transparent;
             this.smallerButton.CheckedState.Parent = this.smallerButton;
             this.smallerButton.CustomImages.Parent = this.smallerButton;
             this.smallerButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -201,12 +208,26 @@ namespace WeatherApp
             // 
             this.mainFormShadow.TargetForm = this;
             // 
+            // guna2CustomGradientPanel1
+            // 
+            this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(125)))), ((int)(((byte)(182)))));
+            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(200)))));
+            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(200)))));
+            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(125)))), ((int)(((byte)(182)))));
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 25);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.ShadowDecoration.Parent = this.guna2CustomGradientPanel1;
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(117, 515);
+            this.guna2CustomGradientPanel1.TabIndex = 1;
+            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(960, 540);
+            this.Controls.Add(this.guna2CustomGradientPanel1);
             this.Controls.Add(this.navBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -230,6 +251,7 @@ namespace WeatherApp
         private Guna.UI2.WinForms.Guna2GradientButton minimizeButton;
         private Guna.UI2.WinForms.Guna2GradientButton maximizeButton;
         private Guna.UI2.WinForms.Guna2GradientButton smallerButton;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
     }
 }
 
