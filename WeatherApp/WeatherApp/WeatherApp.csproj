@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon-color.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Guna.UI2, Version=2.0.1.9, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.9\lib\net40\Guna.UI2.dll</HintPath>
@@ -91,8 +94,11 @@
     <Content Include="buttons\windowMaximize1.png" />
     <Content Include="buttons\windowMinimize.png" />
     <Content Include="buttons\windowSmaller.png" />
+    <Content Include="icon-color.ico" />
+    <Content Include="icons\icon-color.ico" />
     <Content Include="icons\mainIcon.ico" />
     <Content Include="images\mainNavbarLogo.png.png" />
+    <Content Include="mainIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
