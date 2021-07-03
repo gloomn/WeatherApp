@@ -10,8 +10,5 @@ namespace WeatherApp
             InitializeComponent();
         }
 
-        static string requestURL = "";
-
-        WebRequest request = WebRequest.Create(requestURL);
     }
 }

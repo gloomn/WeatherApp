@@ -47,10 +47,11 @@ namespace WeatherApp
             this.elipse = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.drag = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.navBar = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label1 = new System.Windows.Forms.Label();
             this.sidePanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.slidePanelTimer = new System.Windows.Forms.Timer(this.components);
             this.hanriverTemp1 = new WeatherApp.hanriverTemp();
-            this.label1 = new System.Windows.Forms.Label();
+            this.hanriverTemp2 = new WeatherApp.hanriverTemp();
             this.sidePanel.SuspendLayout();
             this.navBar.SuspendLayout();
             this.sidePanel2.SuspendLayout();
@@ -181,10 +182,10 @@ namespace WeatherApp
             this.sidePanel.Controls.Add(this.closeMenu);
             this.sidePanel.Controls.Add(this.menuBar);
             this.sidePanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.sidePanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(125)))), ((int)(((byte)(182)))));
-            this.sidePanel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(200)))));
-            this.sidePanel.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(200)))));
-            this.sidePanel.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(125)))), ((int)(((byte)(182)))));
+            this.sidePanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(206)))), ((int)(((byte)(162)))));
+            this.sidePanel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(206)))), ((int)(((byte)(162)))));
+            this.sidePanel.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(90)))), ((int)(((byte)(157)))));
+            this.sidePanel.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(206)))), ((int)(((byte)(162)))));
             this.sidePanel.Location = new System.Drawing.Point(0, 0);
             this.sidePanel.Name = "sidePanel";
             this.sidePanel.ShadowDecoration.Parent = this.sidePanel;
@@ -385,15 +386,28 @@ namespace WeatherApp
             // 
             this.navBar.Controls.Add(this.label1);
             this.navBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.navBar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(146)))), ((int)(((byte)(210)))));
-            this.navBar.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(252)))), ((int)(((byte)(254)))));
-            this.navBar.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(252)))), ((int)(((byte)(254)))));
-            this.navBar.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(252)))), ((int)(((byte)(254)))));
+            this.navBar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(206)))), ((int)(((byte)(162)))));
+            this.navBar.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(90)))), ((int)(((byte)(157)))));
+            this.navBar.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(90)))), ((int)(((byte)(157)))));
+            this.navBar.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(90)))), ((int)(((byte)(157)))));
             this.navBar.Location = new System.Drawing.Point(55, 0);
             this.navBar.Name = "navBar";
             this.navBar.ShadowDecoration.Parent = this.navBar;
             this.navBar.Size = new System.Drawing.Size(1000, 44);
             this.navBar.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.ForeColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(3, 7);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(161, 37);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "한강물 온도";
             // 
             // sidePanel2
             // 
@@ -402,10 +416,10 @@ namespace WeatherApp
             this.sidePanel2.Controls.Add(this.maximizeButton);
             this.sidePanel2.Controls.Add(this.smallerButton);
             this.sidePanel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.sidePanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(125)))), ((int)(((byte)(182)))));
-            this.sidePanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(200)))));
-            this.sidePanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(200)))));
-            this.sidePanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(125)))), ((int)(((byte)(182)))));
+            this.sidePanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(158)))));
+            this.sidePanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(200)))), ((int)(((byte)(162)))));
+            this.sidePanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(158)))));
+            this.sidePanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(90)))), ((int)(((byte)(157)))));
             this.sidePanel2.Location = new System.Drawing.Point(1055, 0);
             this.sidePanel2.Name = "sidePanel2";
             this.sidePanel2.ShadowDecoration.Parent = this.sidePanel2;
@@ -426,18 +440,14 @@ namespace WeatherApp
             this.hanriverTemp1.Size = new System.Drawing.Size(1000, 676);
             this.hanriverTemp1.TabIndex = 7;
             // 
-            // label1
+            // hanriverTemp2
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(3, 7);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(161, 37);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "한강물 온도";
+            this.hanriverTemp2.BackColor = System.Drawing.Color.White;
+            this.hanriverTemp2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.hanriverTemp2.Location = new System.Drawing.Point(55, 44);
+            this.hanriverTemp2.Name = "hanriverTemp2";
+            this.hanriverTemp2.Size = new System.Drawing.Size(1000, 676);
+            this.hanriverTemp2.TabIndex = 7;
             // 
             // main
             // 
@@ -445,7 +455,7 @@ namespace WeatherApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1280, 720);
-            this.Controls.Add(this.hanriverTemp1);
+            this.Controls.Add(this.hanriverTemp2);
             this.Controls.Add(this.navBar);
             this.Controls.Add(this.sidePanel2);
             this.Controls.Add(this.sidePanel);
@@ -484,6 +494,7 @@ namespace WeatherApp
         private Guna.UI2.WinForms.Guna2CustomGradientPanel navBar;
         private hanriverTemp hanriverTemp1;
         private System.Windows.Forms.Label label1;
+        private hanriverTemp hanriverTemp2;
     }
 }
 
