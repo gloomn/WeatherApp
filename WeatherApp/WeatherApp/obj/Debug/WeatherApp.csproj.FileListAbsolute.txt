@@ -11,3 +11,5 @@ D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\We
 D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.pdb
 D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csproj.AssemblyReference.cache
 D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.hanriverTemp.resources
+D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\bin\Debug\Newtonsoft.Json.dll
+D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\bin\Debug\Newtonsoft.Json.xml
