@@ -67,18 +67,45 @@
     <Compile Include="main.Designer.cs">
       <DependentUpon>main.cs</DependentUpon>
     </Compile>
+    <Compile Include="moonStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="moonStatus.Designer.cs">
+      <DependentUpon>moonStatus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sunStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sunStatus.Designer.cs">
+      <DependentUpon>sunStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="weather.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="weather.Designer.cs">
+      <DependentUpon>weather.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="hanriverTemp.resx">
       <DependentUpon>hanriverTemp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="moonStatus.resx">
+      <DependentUpon>moonStatus.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sunStatus.resx">
+      <DependentUpon>sunStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="weather.resx">
+      <DependentUpon>weather.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

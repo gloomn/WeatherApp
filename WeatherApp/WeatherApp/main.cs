@@ -36,6 +36,7 @@ namespace WeatherApp
             this.MinimumSize = new Size(800, 450);
             menu_width = sidePanel.Width;
             hided = true;
+            weatherButton.PerformClick();
         }
 
         public void navBar_MouseDown(object sender, MouseEventArgs e)
@@ -144,9 +145,44 @@ namespace WeatherApp
             menuBar.Show();
         }
 
-        private void guna2GradientButton4_Click(object sender, EventArgs e)
+        private void hanriverButton_Click(object sender, EventArgs e)
         {
+            hanriverTemp1.Show();
+            weather1.Hide();
+            moonStatus1.Hide();
+            sunStatus1.Hide();
             hanriverTemp1.BringToFront();
+            mainTitle.Text = "한강 정보";
+        }
+
+        private void weatherButton_Click(object sender, EventArgs e)
+        {
+            weather1.Show();
+            hanriverTemp1.Hide();
+            moonStatus1.Hide();
+            sunStatus1.Hide();
+            weather1.BringToFront();
+            mainTitle.Text = "날씨 정보";
+        }
+
+        private void moonButton_Click(object sender, EventArgs e)
+        {
+            moonStatus1.Show();
+            hanriverTemp1.Hide();
+            sunStatus1.Hide();
+            weather1.Hide();
+            moonStatus1.BringToFront();
+            mainTitle.Text = "월출 / 월몰 시간";
+        }
+
+        private void sunButton_Click(object sender, EventArgs e)
+        {
+            sunStatus1.Show();
+            moonStatus1.Hide();
+            hanriverTemp1.Hide();
+            weather1.Hide();
+            sunStatus1.BringToFront();
+            mainTitle.Text = "일출 / 일몰 시간";
         }
     }
 }

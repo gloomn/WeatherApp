@@ -1,7 +1,7 @@
 ﻿
 namespace WeatherApp
 {
-    partial class hanriverTemp
+    partial class sunStatus
     {
         /// <summary> 
         /// 필수 디자이너 변수입니다.
@@ -29,35 +29,35 @@ namespace WeatherApp
         /// </summary>
         private void InitializeComponent()
         {
-            this.mainPanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.mainPanelSun = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.SuspendLayout();
             // 
-            // mainPanel
+            // mainPanelSun
             // 
-            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(206)))), ((int)(((byte)(162)))));
-            this.mainPanel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(206)))), ((int)(((byte)(162)))));
-            this.mainPanel.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(90)))), ((int)(((byte)(157)))));
-            this.mainPanel.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(90)))), ((int)(((byte)(157)))));
-            this.mainPanel.Location = new System.Drawing.Point(0, 0);
-            this.mainPanel.Name = "mainPanel";
-            this.mainPanel.ShadowDecoration.Parent = this.mainPanel;
-            this.mainPanel.Size = new System.Drawing.Size(1225, 676);
-            this.mainPanel.TabIndex = 1;
+            this.mainPanelSun.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainPanelSun.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(206)))), ((int)(((byte)(162)))));
+            this.mainPanelSun.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(206)))), ((int)(((byte)(162)))));
+            this.mainPanelSun.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(90)))), ((int)(((byte)(157)))));
+            this.mainPanelSun.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(90)))), ((int)(((byte)(157)))));
+            this.mainPanelSun.Location = new System.Drawing.Point(0, 0);
+            this.mainPanelSun.Name = "mainPanelSun";
+            this.mainPanelSun.ShadowDecoration.Parent = this.mainPanelSun;
+            this.mainPanelSun.Size = new System.Drawing.Size(1225, 676);
+            this.mainPanelSun.TabIndex = 2;
             // 
-            // hanriverTemp
+            // sunStatus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.mainPanel);
-            this.Name = "hanriverTemp";
+            this.Controls.Add(this.mainPanelSun);
+            this.Name = "sunStatus";
             this.Size = new System.Drawing.Size(1225, 676);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel mainPanel;
+
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel mainPanelSun;
     }
 }

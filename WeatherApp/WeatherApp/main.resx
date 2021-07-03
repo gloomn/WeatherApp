@@ -512,7 +512,7 @@
         Ch+uuoGrDQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="guna2GradientButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="hanriverButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAYAAACPgGwlAAAABGdBTUEAALGPC/xhBQAACvBJREFUeF7t
         nXesZVUVh4c2FJGu1ChSIopxDA4oqAgICBIQUBRjCypEgwiINVH/0GAJBtTIACoRUAwMxoiiKHZBkVhR
@@ -564,7 +564,7 @@
         FNOA1P6YHjXX2/J616rjOI7jOI7jOI7jOI7jOElWrPg/edbe4ZjuuggAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="guna2GradientButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="moonButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAYAAACPgGwlAAAABGdBTUEAALGPC/xhBQAAClVJREFUeF7t
         nXvwbtUYx0/3nE5niFLnqEwoJqScoVBSREz4I+RWyczRNF2H5K5UNCYTIpfBMIpDxrikQhdNNOhQDCPk
@@ -614,7 +614,7 @@
         +xb3MkeYAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="guna2GradientButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="sunButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAYAAACPgGwlAAAABGdBTUEAALGPC/xhBQAABHtJREFUeF7t
         3d/L3nMcx/F7P++RTSNJRO4R28jBnLCJdudObH40y5JatJw6pNWWEVH8AXMgEeHQKD8KJ34TcYSQA0ei
@@ -639,7 +639,7 @@
         /cKmkQzE4rwAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="guna2GradientButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="weatherButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAYAAACPgGwlAAAABGdBTUEAALGPC/xhBQAACl5JREFUeF7t
         nXfsJVUVx5feqxhAelmahl5DCEhNwBUIEBEEkY5KkYToX0RZUAwxQaV3LKD0UCIICIamC6goilJclBrA
