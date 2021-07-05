@@ -30,10 +30,15 @@ namespace WeatherApp
         private void InitializeComponent()
         {
             this.mainPanelSun = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.sunRiseTitle = new System.Windows.Forms.Label();
+            this.sunrise = new System.Windows.Forms.Label();
+            this.mainPanelSun.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainPanelSun
             // 
+            this.mainPanelSun.Controls.Add(this.sunrise);
+            this.mainPanelSun.Controls.Add(this.sunRiseTitle);
             this.mainPanelSun.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanelSun.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(206)))), ((int)(((byte)(162)))));
             this.mainPanelSun.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(206)))), ((int)(((byte)(162)))));
@@ -45,6 +50,32 @@ namespace WeatherApp
             this.mainPanelSun.Size = new System.Drawing.Size(1225, 676);
             this.mainPanelSun.TabIndex = 2;
             // 
+            // sunRiseTitle
+            // 
+            this.sunRiseTitle.AutoSize = true;
+            this.sunRiseTitle.BackColor = System.Drawing.Color.Transparent;
+            this.sunRiseTitle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sunRiseTitle.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sunRiseTitle.ForeColor = System.Drawing.Color.Transparent;
+            this.sunRiseTitle.Location = new System.Drawing.Point(19, 14);
+            this.sunRiseTitle.Name = "sunRiseTitle";
+            this.sunRiseTitle.Size = new System.Drawing.Size(134, 37);
+            this.sunRiseTitle.TabIndex = 9;
+            this.sunRiseTitle.Text = "일출 시간";
+            // 
+            // sunrise
+            // 
+            this.sunrise.AutoSize = true;
+            this.sunrise.BackColor = System.Drawing.Color.Transparent;
+            this.sunrise.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sunrise.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sunrise.ForeColor = System.Drawing.Color.Transparent;
+            this.sunrise.Location = new System.Drawing.Point(19, 62);
+            this.sunrise.Name = "sunrise";
+            this.sunrise.Size = new System.Drawing.Size(109, 37);
+            this.sunrise.TabIndex = 10;
+            this.sunrise.Text = "Sunrise";
+            // 
             // sunStatus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -52,6 +83,8 @@ namespace WeatherApp
             this.Controls.Add(this.mainPanelSun);
             this.Name = "sunStatus";
             this.Size = new System.Drawing.Size(1225, 676);
+            this.mainPanelSun.ResumeLayout(false);
+            this.mainPanelSun.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -59,5 +92,7 @@ namespace WeatherApp
         #endregion
 
         private Guna.UI2.WinForms.Guna2CustomGradientPanel mainPanelSun;
+        private System.Windows.Forms.Label sunRiseTitle;
+        private System.Windows.Forms.Label sunrise;
     }
 }
