@@ -16,14 +16,16 @@ namespace WeatherApp
 {
     public partial class sunStatus : UserControl
     {
-        const string targetURL =
-            ""
         public sunStatus()
         {
             InitializeComponent();
         }
 
-        
+        public void getAPI()
+        {
+            string query = "";
+            WebRequest request = WebRequest.Create(query);
+        }
         
 
     }
