@@ -16,3 +16,12 @@ D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\We
 D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.moonStatus.resources
 D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.sunStatus.resources
 D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.weather.resources
+D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\bin\Debug\dotenv.net.dll
+D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\bin\Debug\System.Buffers.dll
+D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\bin\Debug\System.Memory.dll
+D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\bin\Debug\System.Numerics.Vectors.dll
+D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\bin\Debug\System.Buffers.xml
+D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\bin\Debug\System.Memory.xml
+D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\bin\Debug\System.Numerics.Vectors.xml
+D:\WorkSpace\Git Version Management\Weather Application\WeatherApp\WeatherApp\WeatherApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
