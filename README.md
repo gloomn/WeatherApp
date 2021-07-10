@@ -26,7 +26,9 @@
 
 ---
 ### 개발현황
-* 아직 미개발입니다.
+* ![image](https://user-images.githubusercontent.com/86612194/125165056-385d0700-e1d0-11eb-869b-5fcb679cbb32.png)
+* 일출/일몰 시간 api 값만 받아놓았습니다.
+* UI 업데이트와 다른 목록 api 들도 연결할겁니다.
 
 ---
 ### 이메일
