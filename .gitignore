@@ -363,5 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # api key
-apiKey.cs 
 WeatherApp/WeatherApp/apiKey.cs
