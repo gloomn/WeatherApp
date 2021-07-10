@@ -58,9 +58,6 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="dotenv.net, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\dotenv.net.3.0.0\lib\netstandard2.0\dotenv.net.dll</HintPath>
-    </Reference>
     <Reference Include="Guna.UI2, Version=2.0.1.9, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.9\lib\net40\Guna.UI2.dll</HintPath>
     </Reference>
