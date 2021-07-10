@@ -229,11 +229,11 @@ namespace WeatherApp
             this.location.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.location.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.location.ForeColor = System.Drawing.Color.Transparent;
-            this.location.Location = new System.Drawing.Point(111, 76);
+            this.location.Location = new System.Drawing.Point(106, 76);
             this.location.Name = "location";
-            this.location.Size = new System.Drawing.Size(109, 37);
+            this.location.Size = new System.Drawing.Size(119, 37);
             this.location.TabIndex = 10;
-            this.location.Text = "Sunrise";
+            this.location.Text = "location";
             // 
             // showXmlCode
             // 
