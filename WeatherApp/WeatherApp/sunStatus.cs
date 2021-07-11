@@ -32,7 +32,7 @@ namespace WeatherApp
         {
             
             string query = "http://apis.data.go.kr/B090041/openapi/service/RiseSetInfoService/getAreaRiseSetInfo?location=%EC%84%9C%EC%9A%B8&locdate=" +
-                date + "&ServiceKey=" + Confidentials.ApiKey;
+                date + "&ServiceKey=" + Confidentials.sunStatusApiKey;
             WebRequest request = WebRequest.Create(query);
             request.Method = "GET";
 
