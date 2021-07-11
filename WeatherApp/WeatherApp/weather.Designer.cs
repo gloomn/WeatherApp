@@ -30,13 +30,10 @@ namespace WeatherApp
         private void InitializeComponent()
         {
             this.mainPanelWeather = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.xmlCode = new System.Windows.Forms.RichTextBox();
-            this.mainPanelWeather.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainPanelWeather
             // 
-            this.mainPanelWeather.Controls.Add(this.xmlCode);
             this.mainPanelWeather.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanelWeather.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(206)))), ((int)(((byte)(162)))));
             this.mainPanelWeather.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(206)))), ((int)(((byte)(162)))));
@@ -48,16 +45,6 @@ namespace WeatherApp
             this.mainPanelWeather.Size = new System.Drawing.Size(1225, 676);
             this.mainPanelWeather.TabIndex = 2;
             // 
-            // xmlCode
-            // 
-            this.xmlCode.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.xmlCode.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.xmlCode.Location = new System.Drawing.Point(12, 27);
-            this.xmlCode.Name = "xmlCode";
-            this.xmlCode.Size = new System.Drawing.Size(1201, 623);
-            this.xmlCode.TabIndex = 15;
-            this.xmlCode.Text = "";
-            // 
             // weather
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -65,7 +52,6 @@ namespace WeatherApp
             this.Controls.Add(this.mainPanelWeather);
             this.Name = "weather";
             this.Size = new System.Drawing.Size(1225, 676);
-            this.mainPanelWeather.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -73,6 +59,5 @@ namespace WeatherApp
         #endregion
 
         private Guna.UI2.WinForms.Guna2CustomGradientPanel mainPanelWeather;
-        private System.Windows.Forms.RichTextBox xmlCode;
     }
 }

@@ -191,6 +191,8 @@
     <Content Include="icons\icon-color.ico" />
     <Content Include="icons\mainIcon.ico" />
     <Content Include="images\mainNavbarLogo.png.png" />
+    <Content Include="images\sunriseImage.png" />
+    <Content Include="images\sunsetImage.png" />
     <Content Include="mainIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

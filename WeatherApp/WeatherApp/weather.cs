@@ -34,12 +34,12 @@ namespace WeatherApp
             Stream stream = webresponse.GetResponseStream();
             StreamReader reader = new StreamReader(stream);
             string response = reader.ReadToEnd();
-            xmlCode.Text = response;
             XmlDocument doc = new XmlDocument();
             doc.LoadXml(response);
             XmlNode node = doc["response"]["body"]["items"];
             for (int i = 0; i < node.ChildNodes.Count; i++)
             {
+                
             }
         }
     }

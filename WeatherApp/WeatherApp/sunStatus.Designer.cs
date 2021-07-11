@@ -99,7 +99,7 @@ namespace WeatherApp
             this.sunset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sunset.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.sunset.ForeColor = System.Drawing.Color.Transparent;
-            this.sunset.Location = new System.Drawing.Point(111, 343);
+            this.sunset.Location = new System.Drawing.Point(113, 343);
             this.sunset.Name = "sunset";
             this.sunset.Size = new System.Drawing.Size(104, 37);
             this.sunset.TabIndex = 22;
@@ -138,7 +138,7 @@ namespace WeatherApp
             this.longitude.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.longitude.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.longitude.ForeColor = System.Drawing.Color.Transparent;
-            this.longitude.Location = new System.Drawing.Point(111, 172);
+            this.longitude.Location = new System.Drawing.Point(109, 172);
             this.longitude.Name = "longitude";
             this.longitude.Size = new System.Drawing.Size(146, 37);
             this.longitude.TabIndex = 19;
@@ -216,7 +216,7 @@ namespace WeatherApp
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(34, 76);
+            this.label1.Location = new System.Drawing.Point(34, 74);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 37);
             this.label1.TabIndex = 13;
@@ -229,7 +229,7 @@ namespace WeatherApp
             this.location.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.location.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.location.ForeColor = System.Drawing.Color.Transparent;
-            this.location.Location = new System.Drawing.Point(106, 76);
+            this.location.Location = new System.Drawing.Point(109, 74);
             this.location.Name = "location";
             this.location.Size = new System.Drawing.Size(119, 37);
             this.location.TabIndex = 10;
@@ -269,7 +269,7 @@ namespace WeatherApp
             this.dateTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dateTime.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dateTime.ForeColor = System.Drawing.Color.Transparent;
-            this.dateTime.Location = new System.Drawing.Point(111, 124);
+            this.dateTime.Location = new System.Drawing.Point(107, 124);
             this.dateTime.Name = "dateTime";
             this.dateTime.Size = new System.Drawing.Size(140, 37);
             this.dateTime.TabIndex = 11;

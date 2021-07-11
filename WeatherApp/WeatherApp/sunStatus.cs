@@ -17,7 +17,7 @@ namespace WeatherApp
 {
     public partial class sunStatus : UserControl
     {
-        string date = DateTime.Now.ToString("yyyyMMdd");
+        string date = DateTime.Now.ToString("yyyyMMdd");//오늘 날짜
         bool isVisible;
         public sunStatus()
         {
@@ -46,14 +46,16 @@ namespace WeatherApp
             XmlNode node = doc["response"]["body"]["items"];
             for(int i = 0; i < node.ChildNodes.Count; i++)
             {
-                string sunrisestring = node.ChildNodes[i]["sunrise"].InnerText;
-                string sunsetstring = node.ChildNodes[i]["sunset"].InnerText;
+                string sunriseString = node.ChildNodes[i]["sunrise"].InnerText;
+                string sunsetString = node.ChildNodes[i]["sunset"].InnerText;
+                string dateTimeString = node.ChildNodes[i]["locdate"].InnerText;
                 location.Text = node.ChildNodes[i]["location"].InnerText;
-                dateTime.Text = node.ChildNodes[i]["locdate"].InnerText;
+                dateTime.Text = dateTimeString.Substring(0,4) + "년 " + dateTimeString.Substring(4,2) + 
+                    "월 " + dateTimeString.Substring(6,2) + "일";
                 longitude.Text = node.ChildNodes[i]["longitudeNum"].InnerText;
-                latitude.Text = node.ChildNodes[i]["latitude"].InnerText;
-                sunrise.Text = sunrisestring;
-                sunset.Text = sunsetstring;
+                latitude.Text = node.ChildNodes[i]["latitudeNum"].InnerText;
+                sunrise.Text = sunriseString.Substring(0,2) +"시 " + sunriseString.Substring(2,2) + "분";
+                sunset.Text = sunsetString.Substring(0,2) + "시 " + sunsetString.Substring(2,2) + "분";
             }
         }
 
