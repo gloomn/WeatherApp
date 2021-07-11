@@ -18,7 +18,8 @@
 ---
 ### 사용방법
 * 코드를 수정하시고 사용하실 때는 공공데이터 포털에서 직접 API 키를 발급 받으셔서 ```apiKey.cs```파일에 넣으셔야합니다.
-* ```https://www.data.go.kr/data/15012688/openapi.do```
+* 일출/일몰 & 월출/월몰 API: ```https://www.data.go.kr/data/15012688/openapi.do```
+* 기상청 API: ```https://www.data.go.kr/data/15084084/openapi.do```
 
 ---
 ### 주의사항
