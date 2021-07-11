@@ -29,13 +29,16 @@
 
 ---
 ### 주의사항
-* 추가될 예정입니다.
+* 프로그램이 조금 느릴 수 있습니다.
 
 ---
 ### 개발현황
-* ![image](https://user-images.githubusercontent.com/86612194/125165056-385d0700-e1d0-11eb-869b-5fcb679cbb32.png)
-* 일출/일몰 시간 api 값만 받아놓았습니다.
-* UI 업데이트와 다른 목록 api 들도 연결할겁니다.
+![image](https://user-images.githubusercontent.com/86612194/125200557-a70c9400-e2a6-11eb-9d6b-a4b55c7039ef.png)
+![image](https://user-images.githubusercontent.com/86612194/125200572-b25fbf80-e2a6-11eb-9754-ee07afc744b0.png)
+
+* 일출 & 일몰 api 연결함
+* 월출 & 월몰 api 연결함
+* UI 업데이트해야합(제가 디자인 감각이 안 좋아서 좋은 디자인 있으시면 메일이나 issue 남겨주세요ㅠ)
 
 ---
 ### 이메일
