@@ -11,7 +11,8 @@ namespace WeatherApp
         public static class Confidentials
         {
            
-            public const string ApiKey = "Api Key";
+            public const string sunStatusApiKey = "Api Key";
+            public const string weatherApiKey = "Api Key";
         }
 
     }
